@@ -1,0 +1,72 @@
+html body{
+   background-color: rgb(170, 101, 216);
+    
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(224 ,143 ,68);;
+    box-shadow:rgb(255, 255, 0);
+    border-radius: 15px;
+    border: rgb(0, 0, 0);
+    padding-bottom: 14px;
+    width: 325px;
+}
+.display{
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background-color: rgb(48 ,35 ,68) !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.button{
+    padding: 20px 20px 0 20px;
+}
+.row{
+    width: 280px;
+    float: left;
+}
+.btn:hover{
+    background-color: grey;
+    color: honeydew;
+}
+input[type=button]{
+    width: 60px;
+    height: 60px;
+    float:left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: rgb(12, 10, 15);
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: rgb(216, 44, 44);
+    cursor: pointer;
+}
+input[type=text]{
+    width: 275px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-color: none;
+    color:rgb(0, 0, 0);
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+}
+.blue{
+    background-color: tomato;
+    color: white;
+}
